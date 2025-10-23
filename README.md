@@ -5,10 +5,10 @@ This project aims to design a system that helps **prevent accidents on railway t
 The main goal of this project is to **enhance railway safety** and **reduce train-related accidents**.
 - The system includes an **Arduino UNO microcontroller**, **ultrasonic sensors**, **LED indicators**, and a **buzzer**.  
 - Ultrasonic sensors are strategically installed near railway tracks to **measure the distance of an approaching train**.  
-- When a train is detected within a certain distance, the system automatically **activates LEDs and a buzzer**, providing **both visual and audible warnings** to nearby pedestrians and drivers.  
-This early warning mechanism can significantly reduce the risk of railway accidents by alerting people **before the train arrives**.  
-Testing and results demonstrate the system’s **effectiveness in preventing potential collisions**.  
-Such a system can be implemented in various railway safety scenarios to **save lives** and **minimize accidents** in the rail transport sector.
+- When a train is detected within a certain distance, the system automatically **activates LEDs and a buzzer**, providing **both visual and audible warnings** to nearby pedestrians and drivers.
+- This early warning mechanism can significantly reduce the risk of railway accidents by alerting people **before the train arrives**.
+- Testing and results demonstrate the system’s **effectiveness in preventing potential collisions**.
+- Such a system can be implemented in various railway safety scenarios to **save lives** and **minimize accidents** in the rail transport sector.
 
 ## Working Principle of the Train Accident Prevention System
 To understand how this system works, let’s look at its main steps:
