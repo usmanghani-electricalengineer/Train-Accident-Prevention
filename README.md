@@ -63,5 +63,5 @@ To understand how this system works, let’s look at its main steps:
 - The Train Accident Prevention System provides a simple, cost-effective, and reliable solution for enhancing railway safety.
 - By combining ultrasonic sensing and microcontroller control, it effectively reduces the risk of accidents at unmanned railway crossings.
 
-The system follows this logic:
+
 
