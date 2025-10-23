@@ -10,7 +10,7 @@ This early warning mechanism can significantly reduce the risk of railway accide
 Testing and results demonstrate the system’s **effectiveness in preventing potential collisions**.  
 Such a system can be implemented in various railway safety scenarios to **save lives** and **minimize accidents** in the rail transport sector.
 
-## ⚙️ Working Principle of the Train Accident Prevention System
+## Working Principle of the Train Accident Prevention System
 To understand how this system works, let’s look at its main steps:
 ### 1️. Train Detection (Ultrasonic Sensor Operation)
 - Ultrasonic sensors are installed near the railway tracks at points where trains usually approach.  
@@ -19,9 +19,6 @@ To understand how this system works, let’s look at its main steps:
 ### 2️. Distance Measurement
 - The sensor measures the time taken for the wave to travel to the train and back — known as the **time of flight**.  
 - Using the speed of sound in air, the sensor calculates the **distance between the train and the sensor**, similar to how distance is measured using sound speed.  
-\[
-\text{Distance} = \frac{\text{Speed of Sound} \times \text{Time}}{2}
-\]
 ### 3️. Processing (Microcontroller Function)
 - The **distance data** from the ultrasonic sensors is sent to the **Arduino UNO microcontroller**, which acts as the **brain of the system**.  
 - The microcontroller continuously monitors the measured distance in real-time.
@@ -45,7 +42,7 @@ To understand how this system works, let’s look at its main steps:
 - The early alert gives enough **response time** for people to **take precautions** and **avoid accidents**.  
 - This simple yet effective system helps **prevent collisions** and ensures **public safety**.
 
-## 🧩 Components Used
+## Components Used
 
 | Component | Description |
 |------------|-------------|
@@ -57,6 +54,14 @@ To understand how this system works, let’s look at its main steps:
 | **Power Supply (5V)** | Powers Arduino and sensors |
 | **Connecting Wires** | Connects circuit components |
 
+## Testing Result
+- When an object (train) approaches within the danger threshold, both LED and buzzer activate.
+- When it moves away, both turn off automatically.
+- The system successfully simulates real-time train detection and alert activation.
+
+## Conclusion
+- The Train Accident Prevention System provides a simple, cost-effective, and reliable solution for enhancing railway safety.
+- By combining ultrasonic sensing and microcontroller control, it effectively reduces the risk of accidents at unmanned railway crossings.
 
 The system follows this logic:
 
